@@ -55,7 +55,7 @@ PS: You need at least go 1.19 to compile flag4ctf.
 ### Using Docker
 
 ```bash
-docker pull  ghcr.io/leofvo/flag4ctf:latest
+docker pull ghcr.io/leofvo/flag4ctf:latest
 docker run flag4ctf:latest
 ```
 
