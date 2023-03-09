@@ -47,10 +47,17 @@ If you're stupid enough to trust binaries that I've put together, you can downlo
 If you have a [Go](https://golang.org/) environment ready to go (at least go 1.19), it's as easy as:
 
 ```bash
-go install github.com/LeoFVO/flag4ctf
+go install github.com/LeoFVO/flag4ctf@latest
 ```
 
 PS: You need at least go 1.19 to compile flag4ctf.
+
+### Using Docker
+
+```bash
+docker pull  ghcr.io/leofvo/flag4ctf:latest
+docker run flag4ctf:latest
+```
 
 ### Building From Source
 
